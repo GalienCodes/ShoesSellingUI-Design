@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <!-- fontsa Awesome -->
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <!-- GOOGLE FONTS -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Roboto:ital,wght@0,100;0,700;1,700&display=swap" rel="stylesheet">
+  <!-- css -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+
+
+  <!-- `            bootstrap` -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!-- nav bar -->
+  <nav class="navbar sticky-top navbar-expand-lg navbar-light heading-color">
+    <a class="navbar-brand" href="#"><img src="images/mini-logo-1.png" alt="logo" class="logo"></a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#features">Features</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#gallery">Gallery</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="mailto:muhindogalien512@gmail.com?">Contact Us</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <button type="button" class="btn btn-primary btn-lg  nav-buy">Buy now</button>
+      </form>
+    </div>
+  </nav>
+<!-- nav bar -->
+
+  <section id="title" class="heading-color padded50">
+    <div class="container-fluid ">
+
+
+      <!-- Title -->
+      <div class="row">
+        <div class="col-lg-6 col-md-12 ">
+          <h1 class="big-headings">Life is better in running  <span class="orange-colored">shoes</span></h1>
+          <p class="title-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+        </div>
+        <div class="col-lg-6 col-md-12">
+          <img class="title-image" src="images/pumashoes1.png" alt="puma-shoes">
+        </div>
+      </div>
+      <!-- Puma-details -->
+      <div class="row Puma-details">
+
+        <div class="col-lg-3 col-md-4 col-sm-4">
+          <div class="Brand">
+            <label for="Brand">Brand</label><br>
+
+            <select name="Brand" id="Brand">
+              <option value="Puma">Puma</option>
+              <option value="gaga">gaga</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-4 col-sm-4">
+          <div class="person">
+            <label for="person">Person</label><br>
+
+            <select name="person" id="person">
+              <option value="man">man</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-4  col-sm-4 ">
+          <div class="Size">
+            <label for="Size">Size</label><br>
+
+            <select name="Size" id="Size">
+              <option value="large">large</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-6 col-sm-6 ">
+          <div class="Price">
+            <label for="Price">Price</label><br>
+
+            <select name="Price" id="Price">
+              <option value="150$">150$</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6  col-sm-6">
+          <div class="but-btn">
+            <form class="form-inline my-2 my-lg-0">
+                <button type="button" class="btn btn-primary btn-lg  nav-buy puma-buy ">Buy now</button>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+
+  <!-- videos section -->
+  <section id="videosection">
+    <div class="row">
+      <div class="col-lg-6">
+        <div class="video-description">
+          <h3><span>VIDEO</span></h3>
+          <h2>Desire the feel of satisfaction.</h2>
+          <p class=" title-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit,<br>
+            Lorem ipsum dolor sit amet, consectetur a<br>
+            Lorem ipsum dolor sit amet,
+          </p>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <video  width="320" height="240" autoplay>
+          <source src="images/mariaENg.mp4" type="video/mp4">
+        </video>
+      </div>
+    </div>
+
+    </div>
+  </section>
+
+<!-- features section -->
+
+  <section id="features" class="padded50">
+    <div class="container-fluid">
+      <h3><span>FEATURES</span></h3>
+      <h2>We have best features in shoes</h2>
+      <div class="row features-row">
+
+        <div class="col-lg-4 features-box">
+          <i class="fas fa-sun fa-4x"></i>
+          <h3 class="features-title">Quality</h3>
+          <p>So easy to use, even your dog could do it.So easy to use, even your dog </p>
+          <a href="#">Rread more</a>
+        </div>
+
+        <div class="col-lg-4 features-box">
+          <i class="fab fa-stumbleupon-circle fa-4x"></i>
+          <h3 class="features-title">Flexible</h3>
+          <p>We have all the dogs, the greatest dogs We have all the dogs.</p>
+          <a href="#">Rread more</a>
+        </div>
+
+        <div class="col-lg-4 features-box">
+          <i class="far fa-clock fa-4x"></i>
+          <h3 class="features-title">last long.</h3>
+          <p>Find the love of your dog's life or your money back Find the love of your dog's life.</p>
+          <a href="#">Rread more</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="gallery">
+    <div class="container-fluid">
+      <h3><span>GALLERY</span></h3>
+      <h2>40+ YEARS OF EXPERIENCE</h2>
+
+      <!-- tablinks -->
+      <div class="tab-button-outer">
+        <div class="row">
+          <div class="col-lg-4">
+            <p></strong>categories:</strong></p>
+            </p>
+          </div>
+          <div class="col-lg-6">
+            <ul id="tab-button">
+              <li><a href="#Man">Man</a></li>
+              <li><a href="#Woman">Woman</a></li>
+              <li><a href="#Kids">Kids</a></li>
+            </ul>
+          </div>
+        </div>
+
+
+      </div>
+      <div class="tab-select-outer">
+        <select id="tab-select">
+          <option value="#Man">Man</option>
+          <option value="#Woman">Woman</option>
+          <option value="#Kids">Kids</option>
+
+        </select>
+      </div>
+
+      <div id="Man" class="tab-contents">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 col-sm-6 ">
+            <div class="box card">
+              <div class="box cardImg">
+                <img src="images/PngItem_2188921.png" alt="...">
+              </div>
+              <div class="info">
+                <h3>Puma</h3>
+                <p>Size:<span>large</span></p>
+                <p>$<span>150</span></p>
+                <button class="btn btn-primary">Buy now</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6 ">
+            <div class="box card">
+              <div class="box cardImg">
+                <img src="images/PngItem_2188921.png" alt="...">
+              </div>
+              <div class="info">
+                <h3>Puma</h3>
+                <p>Size:<span>large</span></p>
+                <p>$<span>150</span></p>
+                <button class="btn btn-primary">Buy now</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6 ">
+            <div class="box card">
+              <div class="box cardImg">
+                <img src="images/PngItem_2188921.png" alt="...">
+              </div>
+              <div class="info">
+                <h3>Puma</h3>
+                <p>Size:<span>large</span></p>
+                <p>$<span>150</span></p>
+                <button class="btn btn-primary">Buy now</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6 ">
+            <div class="box card">
+              <div class="box cardImg">
+                <img src="images/PngItem_2188921.png" alt="...">
+              </div>
+              <div class="info">
+                <h3>Puma</h3>
+                <p>Size:<span>large</span></p>
+                <p>$<span>150</span></p>
+                <button class="btn btn-primary">Buy now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="Woman" class="tab-contents">
+        <div class="row">
+          <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+            <div class="box card">
+              <div class="box cardImg">
+                <img src="images/—Pngtree—men's casual sneakers running shoes_6031198.png" alt="...">
+              </div>
+              <div class="info">
+                <h3>Puma</h3>
+                <p>Size:<span>large</span></p>
+                <p>$<span>150</span></p>
+                <button class="btn btn-primary">Buy now</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+            <div class="box card">
+              <div class="box cardImg">
+                <img src="images/—Pngtree—men's casual sneakers running shoes_6031198.png" alt="...">
+              </div>
+              <div class="info">
+                <p>Size:<span>large</span></p>
+                <h3>Puma</h3>
+                <p>$<span>150</span></p>
+                <button class="btn btn-primary">Buy now</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+            <div class="box card">
+              <div class="box cardImg">
+                <img src="images/—Pngtree—men's casual sneakers running shoes_6031198.png" alt="...">
+              </div>
+              <div class="info">
+                <h3>Puma</h3>
+                <p>Size:<span>large</span></p>
+                <p>$<span>150</span></p>
+                <button class="btn btn-primary">Buy now</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+            <div class="box card">
+              <div class="box cardImg">
+                <img src="images/—Pngtree—men's casual sneakers running shoes_6031198.png" alt="...">
+              </div>
+              <div class="info">
+                <h3>Puma</h3>
+                <p>Size:<span>large</span></p>
+                <p>$<span>150</span></p>
+                <button class="btn btn-primary">Buy now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="Kids" class="tab-contents">
+        <div class="row">
+          <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+            <div class="box card">
+              <div class="box cardImg">
+                <img src="images/—Pngtree—shoes icon design template illustration_5679703.png" alt="...">
+              </div>
+              <div class="info">
+                <h3>Puma</h3>
+                <p>Size:<span>large</span></p>
+                <p>$<span>150</span></p>
+                <button class="btn btn-primary">Buy now</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+            <div class="box card">
+              <div class="box cardImg">
+                <img src="images/—Pngtree—shoes icon design template illustration_5679703.png" alt="...">
+              </div>
+              <div class="info">
+                <h3>Puma</h3>
+                <p>Size:<span>large</span></p>
+                <p>$<span>150</span></p>
+                <button class="btn btn-primary">Buy now</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+            <div class="box card">
+              <div class="box cardImg">
+                <img src="images/—Pngtree—shoes icon design template illustration_5679703.png" alt="...">
+              </div>
+              <div class="info">
+                <p>Size:<span>large</span></p>
+                <h3>Puma</h3>
+                <p>$<span>150</span></p>
+                <button class="btn btn-primary">Buy now</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+            <div class="box card">
+              <div class="box cardImg">
+                <img src="images/—Pngtree—shoes icon design template illustration_5679703.png" alt="...">
+              </div>
+              <div class="info">
+                <p>Size:<span>large</span></p>
+                <h3>Puma</h3>
+                <p>$<span>150</span></p>
+                <button class="btn btn-primary">Buy now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+
+  <section class="colored-section" id="testimonials">
+    <div id="testimonial-carousel" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner testimonial-slide">
+        <div class="carousel-item active container-fluid">
+          <dvi class="row">
+            <div class="col-lg-6 col-md-12">
+              <img class="testimonial-left" src="images/images (2).jpg" alt="puma shoes">
+
+            </div>
+            <div class="col-lg-6 col-md-12 testimonial-description">
+              <img class="testimonial-image" src="images/download (1).jpg" alt="puma-profile">
+               <h5><em>Pebbles, New York</em></h5>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit,.
+              </p>
+            </div>
+          </dvi>
+        </div>
+
+        <div class="carousel-item container-fluid">
+          <dvi class="row">
+            <div class="col-lg-6">
+              <img class="testimonial-left" src="images/download.jpg" alt="lady-profile">
+
+            </div>
+            <div class="col-lg-6 testimonial-description">
+              <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
+               <h5><em>Pebbles, New York</em></h5>
+
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              </p>
+            </div>
+          </dvi>
+
+        </div>
+
+      </div>
+      <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+
+      </a>
+    </div>
+
+  </section>
+  <footer class="padded50">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <img src="images/mini-logo-1.png" alt="mini-logo" class="logo">
+          <br><br>
+
+          <p>Know more about</p>
+          <p>our shop by</p>
+
+          <div class="footer-description">
+            <p>Following us on</p>
+
+            <i class="fab fa-facebook-square "></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-twitter-square"></i>
+            <i class="fab fa-google-plus"></i>
+
+
+          </div>
+
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <h3>Our services</h3>
+          <br>
+          <p>About us</p>
+          <p>Features</p>
+          <p>Gallery</p>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <h3>support</h3>
+          <br>
+          <p>Privacy & Policy</p>
+          <p>Agreement& condition</p>
+          <p>support System</p>
+          <p>
+            <a href="#">Contact Us</a>
+          </p>
+
+
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="col-lg-12 subscribe">
+            <div class="footer-widget">
+              <div class="section-heading">
+                <h3>Subscribe</h3>
+                <span class="animate-border border-black"></span>
+              </div>
+              <p>
+                <!-- Don’t miss to subscribe to our new feeds, kindly fill the form below. -->
+                Reference site about Lorem Ipsum, giving information on its origins, as well.
+              </p>
+              <form action="#">
+                <div class="form-row">
+                  <div class="col dk-footer-form">
+                    <input type="email" class="form-control" placeholder="Email Address">
+                    <button type="submit">
+                      <i class="fas fa-paper-plane"></i>
+                    </button>
+                  </div>
+                </div>
+              </form>
+              <!-- End form -->
+            </div>
+            <!-- End footer widget -->
+          </div>
+          <!-- End Col -->
+        </div>
+      </div>
+
+    </div>
+    </div>
+    <div class="copyright">
+      <p>
+        <a href="mailto:muhindogalien512@gmail.com">&copy Muhindo Galien</a>
+      </p>
+    </div>
+  </footer>
+  <script src="index.js" charset="utf-8"></script>
+</body>
+
+</html>
